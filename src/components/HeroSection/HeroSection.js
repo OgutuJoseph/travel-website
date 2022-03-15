@@ -5,8 +5,8 @@ import './HeroSection.css'
 
 function HeroSection() {
     return (
-        <div className='heor-container'>
-            <video src='/videos/video-2.mp4' autoplay loop muted />   
+        <div className='hero-container'>
+            <video src='/videos/vida.mp4' autoPlay loop muted />   
             <h1>ADVENTURE AWAITS</h1>
             <p>What are you waiting for?</p>
             <div className='hero-btns'>
@@ -22,3 +22,4 @@ function HeroSection() {
 }
 
 export default HeroSection
+
